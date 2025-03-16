@@ -1,0 +1,16 @@
+version: 1
+
+sources:
+  - name: worksite
+    schema: public
+    database: worksite
+    tables:
+      - name: orders
+        description: "A tables that contains all the different orders from the worksite"
+      - name: products_in_order
+      - name: customer
+      - name: category_code
+      - name: sub_category_code
+      - name: segment_code
+      - name: ship_mode_code
+      - name: order_priority_code
