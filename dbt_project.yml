@@ -42,7 +42,7 @@ models:
     stg:
       +materialized: table
     mart:
-      +materialized: table
+      +materialized: view
 
 
 #    +required_tests: {"unique.*|not_null|at_least_one": 3}
