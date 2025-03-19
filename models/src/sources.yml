@@ -6,7 +6,6 @@ sources:
     database: worksite
     tables:
       - name: orders
-        description: "A tables that contains all the different orders from the worksite"
       - name: products_in_order
       - name: customer
       - name: category_code
